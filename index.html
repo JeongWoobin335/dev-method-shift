@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>개발 방식의 변화</title>
+<style>
+  :root { color-scheme: light; }
+  body { margin: 0; font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Noto Sans KR", system-ui, sans-serif; color: #1f2937; background: #f9fafb; }
+  header { max-width: 1100px; margin: 0 auto; padding: 32px 20px 12px; }
+  h1 { font-size: 26px; margin: 0 0 6px; }
+  p.sub { margin: 0; color: #6b7280; font-size: 14px; }
+  .actions { margin-top: 14px; display: flex; gap: 10px; flex-wrap: wrap; }
+  .actions a { display: inline-block; padding: 8px 14px; border-radius: 8px; text-decoration: none; font-size: 14px; }
+  .primary { background: #0f766e; color: #fff; }
+  .secondary { background: #e5e7eb; color: #1f2937; }
+  main { max-width: 1100px; margin: 0 auto; padding: 12px 20px 40px; }
+  .viewer { width: 100%; height: 78vh; min-height: 480px; border: 1px solid #e5e7eb; border-radius: 10px; background: #fff; }
+  .slides { margin-top: 28px; display: grid; gap: 18px; }
+  .slides img { width: 100%; height: auto; border: 1px solid #e5e7eb; border-radius: 10px; background: #fff; }
+  .slides h2 { font-size: 16px; margin: 0 0 8px; }
+  footer { max-width: 1100px; margin: 0 auto; padding: 0 20px 32px; color: #6b7280; font-size: 12px; }
+  footer a { color: #0f766e; }
+</style>
+</head>
+<body>
+<header>
+  <h1>개발 방식의 변화</h1>
+  <p class="sub">기존 AI 개발 방식(기획 → 설계문 → AI 개발 요청 → 코드)과 지식행동사슬 기반 방식(개념 스킬 → 빌드 스킬 → 런 스킬 → 피드백 → 스펙 갱신)의 비교</p>
+  <div class="actions">
+    <a class="primary" href="docs/dev-method-comparison.pdf" target="_blank" rel="noopener">PDF 새 탭에서 열기</a>
+    <a class="secondary" href="https://github.com/JeongWoobin335/dev-method-shift" target="_blank" rel="noopener">GitHub 저장소</a>
+  </div>
+</header>
+<main>
+  <object class="viewer" data="docs/dev-method-comparison.pdf" type="application/pdf">
+    <p>브라우저에서 PDF를 바로 표시할 수 없습니다. <a href="docs/dev-method-comparison.pdf">여기서 PDF를 여세요.</a></p>
+  </object>
+
+  <section class="slides">
+    <div>
+      <h2>1. 기존 방식: 코드에서 끝난다</h2>
+      <img src="images/slide-1.png" alt="기존 방식: 기획, 설계문 작성, AI에게 개발 요청, 코드의 직선 흐름. 실행 결과가 지식으로 되돌아오는 경로가 없다.">
+    </div>
+    <div>
+      <h2>2. 새로운 방식: 지식으로 되돌아온다</h2>
+      <img src="images/slide-2.png" alt="새로운 방식: 개념 스킬(스펙), 빌드 스킬, 런 스킬, 피드백·리뷰, 스펙 갱신이 닫힌 루프를 이룬다.">
+    </div>
+    <div>
+      <h2>3. 한눈에 비교</h2>
+      <img src="images/slide-3.png" alt="종착점, 명세, AI의 역할, 과정 기록, 수정 방식, 스크립트와 비용, 보여주는 것 항목별 비교표.">
+    </div>
+  </section>
+</main>
+<footer>
+  참고: <a href="https://github.com/sopia19910/Knowledge-Action-Chain" target="_blank" rel="noopener">지식행동 사슬(KAC)</a>
+</footer>
+</body>
+</html>
