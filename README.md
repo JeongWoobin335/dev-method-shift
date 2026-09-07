@@ -7,7 +7,7 @@ AI를 쓰는 기존 개발 방식과 지식행동사슬 기반 개발 방식을 
 
 ## 자료
 
-- [비교 다이어그램 (PDF, 3장)](docs/dev-method-comparison.pdf)
+- [비교 다이어그램 (PDF, 3장)](slides.pdf)
 
 ## 슬라이드 미리보기
 
