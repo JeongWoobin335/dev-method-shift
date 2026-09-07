@@ -34,8 +34,3 @@ AI를 쓰는 기존 개발 방식과 지식행동사슬 기반 개발 방식을 
 | 수정 방식 | 프롬프트 재요청 | 모듈 단위 피드백. 연결된 스펙·플랜이 함께 갱신된다 |
 | 스크립트와 비용 | 매번 임시 생성 | 고정·재사용. 빌드·런은 짧은 추론으로 충분하다 |
 | 보여주는 것 | 결과물 하나 | 결과와 과정. 개념·빌드·런 세 가지를 함께 제시 |
-
-## 참고
-
-- Ha Woo Sung (Ryo Ha), 「지식행동 사슬(KAC)」: https://github.com/sopia19910/Knowledge-Action-Chain
-- Ha Woo Sung (Ryo Ha), 「아이덴티티 기반 스킬 도출 지식사슬」: https://github.com/sopia19910/Identity-driven-Skill-Derivation-Knowledge-Chain
